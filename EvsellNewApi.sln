@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33414.496
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Business", "Business", "{7CCE350A-8EDC-496E-A30D-7782C77A38A1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Evsell.Business.Common", "..\New folder\EvsellWebApii\Evsell.Business.Common\Evsell.Business.Common.csproj", "{63A0F9D4-CCCE-4431-8016-4330D0688B30}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Evsell.Business.Email", "..\New folder\EvsellWebApii\Evsell.Business.Email\Evsell.Business.Email.csproj", "{BF7F30CF-8256-4D81-943E-61953179E9BD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Evsell.Business.Shared", "..\New folder\EvsellWebApii\Evsell.Business.Shared\Evsell.Business.Shared.csproj", "{C50B7EA8-E1D4-4A8E-98AF-C654565D2438}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Evsell.Business.SqlServer", "..\New folder\EvsellWebApii\EVSELL.Business.SqlServer\EVSELL.Business.SqlServer\Evsell.Business.SqlServer.csproj", "{ECEBC207-D748-4E88-B91A-147340BA1C44}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "App", "App", "{184A73C6-022E-4D29-B5D2-19947CE2B61C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Evsell.App.WebApi", "..\New folder\EvsellWebApii\Evsell.App.WebApi\Evsell.App.WebApi.csproj", "{BA225188-2CEC-4F45-9E65-84F8E2497EF4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{63A0F9D4-CCCE-4431-8016-4330D0688B30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63A0F9D4-CCCE-4431-8016-4330D0688B30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63A0F9D4-CCCE-4431-8016-4330D0688B30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63A0F9D4-CCCE-4431-8016-4330D0688B30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF7F30CF-8256-4D81-943E-61953179E9BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF7F30CF-8256-4D81-943E-61953179E9BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF7F30CF-8256-4D81-943E-61953179E9BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF7F30CF-8256-4D81-943E-61953179E9BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C50B7EA8-E1D4-4A8E-98AF-C654565D2438}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C50B7EA8-E1D4-4A8E-98AF-C654565D2438}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C50B7EA8-E1D4-4A8E-98AF-C654565D2438}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C50B7EA8-E1D4-4A8E-98AF-C654565D2438}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECEBC207-D748-4E88-B91A-147340BA1C44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECEBC207-D748-4E88-B91A-147340BA1C44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECEBC207-D748-4E88-B91A-147340BA1C44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECEBC207-D748-4E88-B91A-147340BA1C44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA225188-2CEC-4F45-9E65-84F8E2497EF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA225188-2CEC-4F45-9E65-84F8E2497EF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA225188-2CEC-4F45-9E65-84F8E2497EF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA225188-2CEC-4F45-9E65-84F8E2497EF4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{63A0F9D4-CCCE-4431-8016-4330D0688B30} = {7CCE350A-8EDC-496E-A30D-7782C77A38A1}
+		{BF7F30CF-8256-4D81-943E-61953179E9BD} = {7CCE350A-8EDC-496E-A30D-7782C77A38A1}
+		{C50B7EA8-E1D4-4A8E-98AF-C654565D2438} = {7CCE350A-8EDC-496E-A30D-7782C77A38A1}
+		{ECEBC207-D748-4E88-B91A-147340BA1C44} = {7CCE350A-8EDC-496E-A30D-7782C77A38A1}
+		{BA225188-2CEC-4F45-9E65-84F8E2497EF4} = {184A73C6-022E-4D29-B5D2-19947CE2B61C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C673D499-DBFF-44CE-8D02-8DB20DFDC6C8}
+	EndGlobalSection
+EndGlobal
