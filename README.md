@@ -1,6 +1,6 @@
 # EvsellNewApi
-database first
+Database First
 
-db file: BackUp.rar
+Db File: BackUp.rar
 
-using: Jwt Bearer,Smtp,Entity Framework,AutoMapper
+Using: Jwt Bearer,Smtp,Entity Framework,AutoMapper,RateLimiter,.NET 7
